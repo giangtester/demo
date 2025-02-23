@@ -1,11 +1,30 @@
 package bienvadulieu;
 
 public class sinhvien {
-    public static String ten = "Nguyen Van A";
-    public static int tuoi = 21;
+    // biến instance "ten" kiểu String, có giá trị mặc định là null
+    public String ten;
 
-    public static void main(String[] args) {
-        System.out.println("Ten : " + ten);
-        System.out.println("Tuoi : " + sinhvien.tuoi); // Đã sửa nhãn
+    // biến instance "tuoi" kiểu Integer, có giá trị mặc định là 0
+    private int tuoi;
+
+    // sử dụng biến ten trong một constructor
+    public sinhvien(String ten) {
+        this.ten = ten;
     }
-} // Đóng lớp đúng
+
+    // sử dụng biến tuoi trong phương thức setTuoi
+    public void setTuoi(int tuoi) {
+        this.tuoi = tuoi;
+    }
+
+    public void showStudent() {
+        System.out.println("Ten  : " + ten);
+        System.out.println("Tuoi : " + tuoi);
+    }
+
+    public static void main(String args[]) {
+        sinhvien sv = new sinhvien("Nguyen Van A");
+        sv.setTuoi(21);
+        sv.showStudent();
+    }
+}
