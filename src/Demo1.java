@@ -1,6 +1,9 @@
 public class Demo1 {
     public static void main(String[] args) throws Exception {
-
+        String name ="shuushy";
+        String chucmung ="hello word !"+ name;
+        System.out.println(chucmung);
+        System.out.println("Hello chúc mừng " + name);
         //print => same line
         System.out.print("Hello, world! line 1");
         System.out.print("Hello, world! line 2");
