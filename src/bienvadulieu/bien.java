@@ -1,3 +1,5 @@
+package bienvadulieu;
+
 public class bien {
     public static void main(String[] args) {
         // Declare variable

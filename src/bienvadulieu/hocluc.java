@@ -1,3 +1,5 @@
+package bienvadulieu;
+
 public class hocluc {
     public static void main(String[] args)
     { int score  = 50;

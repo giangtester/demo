@@ -1,3 +1,5 @@
+package bienvadulieu;
+
 public class Demo1 {
     public static void main(String[] args) throws Exception {
         String name ="shuushy";
