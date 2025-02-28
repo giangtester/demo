@@ -9,7 +9,7 @@ public class vd4 {
         for (int i=1;i<=10;i++){
             //phepnhan =5*i;
 
-        System.out.println("5 X "+i+"= "+5*i);}
+        System.out.println("5 X "+i+"= "+7*i);}
     }
 }
 /*
