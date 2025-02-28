@@ -18,3 +18,15 @@ public class vd9 {
 
     }}
 }
+/*
+Bài toán: In tam giác cân bằng dấu *
+Viết chương trình in ra tam giác cân có chiều cao n.
+
+Ví dụ, nếu n = 5, kết quả mong muốn là:
+
+    *
+   ***
+  *****
+ *******
+*********
+ */
