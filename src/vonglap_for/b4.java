@@ -14,5 +14,10 @@ public class b4 {
 }
 
 /*
-In hình chữ nhật 3x4 dấu *=
+In hình chữ nhật 3x4 dấu *
+📌 Cách hoạt động:
+
+Vòng lặp ngoài (i): Chạy từ 1 đến chieuCao = 3, đại diện cho số hàng.
+Vòng lặp trong (j): Chạy từ 1 đến chieuRong = 4, in *.
+Xuống dòng (System.out.println();) sau mỗi hàng.
  */
