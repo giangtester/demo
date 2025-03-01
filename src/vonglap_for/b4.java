@@ -14,5 +14,5 @@ public class b4 {
 }
 
 /*
-In hình chữ nhật 3x4 dấu *
+In hình chữ nhật 3x4 dấu *=
  */
