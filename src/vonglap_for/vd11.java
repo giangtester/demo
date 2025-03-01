@@ -23,3 +23,23 @@ public class vd11 {
         }
     }
 }
+/*Viết chương trình in ra tam giác cân có chiều cao n.
+
+Ví dụ, nếu n = 5, kết quả mong muốn là:
+
+    *
+   ***
+  *****
+ *******
+*********
+Tam giác cân có:
+n dòng (chiều cao của tam giác).
+Mỗi dòng có số lượng dấu * tăng dần từ 1 đến (2n - 1).
+Cần căn chỉnh sao cho tam giác nằm giữa (dùng khoảng trắng ' ').
+Số khoảng trắng = n - i.
+Số * = (2 * i - 1).
+
+T✅ Vòng lặp ngoài (i): Điều khiển số dòng.
+✅ Vòng lặp trong 1 (j - khoảng trắng): Căn chỉnh tam giác.
+✅ Vòng lặp trong 2 (j - dấu *): In số lượng dấu * đúng với mỗi dòng.
+✅ Xuống dòng (System.out.println()) để bắt đầu dòng mới..*/

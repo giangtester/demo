@@ -20,4 +20,12 @@ System.out.println("="+sum);
 Bài 3: Tính tổng dãy số
 Viết chương trình tính tổng các số từ 1 đến n (với n nhập từ bàn phím).
 ✅ Gợi ý: Dùng vòng lặp for để cộng dồn vào biến tổng (sum).
+ Giải thích chương trình
+Nhập n từ bàn phím.
+Duyệt từ 1 đến n để tính tổng (sum += i).
+Trong vòng lặp:
+In từng số (i).
+Nếu chưa phải số cuối thì in " + ".
+Sau khi vòng lặp kết thúc, in tổng kết quả.
+
  */
