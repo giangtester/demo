@@ -7,9 +7,12 @@ public class vd1 {
         int n=scanner.nextInt();
         int sum=0;
         for (int i=1;i<=n;i++) {
+          //int  orsum=sum;
             sum += i;
+           System.out.print(i+ "+");
+
         }
-System.out.println(sum);
+System.out.println("="+sum);
     }
 }
 
