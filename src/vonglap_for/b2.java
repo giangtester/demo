@@ -5,7 +5,7 @@ public class b2 {
         //Scanner scanner=new Scanner(System.in);
         //System.out.print("Nhap vao so n ");
        // int n = scanner.nextInt();
-        for (int i=9;i>0;i=i-2) {
+        for (int i=9;i>0;i-=2) {
             System.out.print(i +" ");
         }
     }
