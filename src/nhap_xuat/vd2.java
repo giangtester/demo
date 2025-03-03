@@ -10,18 +10,19 @@ public class vd2 {
         int tuoi=scanner.nextInt();
         System.out.print("vui lòng nhập số short ");
         Short s =scanner.nextShort();
-        System.out.print("vui long nhập kiểu long");
+        System.out.print("vui long nhập kiểu long ");
         long l=scanner.nextLong();
-        System.out.print("vui lòng nhập kiểu double");
+        System.out.print("vui lòng nhập kiểu double ");
         Double d=scanner.nextDouble();
-        System.out.print("vui  long nhập char");
+        System.out.print("vui  long nhập char ");
         char c=scanner.next().charAt(0);
-
         scanner.close();
         System.out.print("xin chào \t"+ten);
         System.out.println("tôi 20 tuổi \n");
         System.out.println("tuôi học lớp 12 \'");
         System.out.println("tôi là nữ \" ");
+        System.out.printf("Định dạng: %s - %d năm", "Java", 25); // Format như C
+
 
     }}
 
